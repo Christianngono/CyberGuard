@@ -1,0 +1,23 @@
+[
+    {
+        "id": "RULE_001",
+        "type": "process_name",
+        "pattern": "ncat",
+        "severity": "high",
+        "description": "Outil de tunneling détecté"
+    },
+    {
+        "id": "RULE_002",
+        "type": "process_name",
+        "pattern": "hydra",
+        "severity": "critical",
+        "description": "Outil de brute-force détecté"
+    },
+    {
+        "id": "RULE_003",
+        "type": "process_name",
+        "pattern": "sqlmap",
+        "severity": "high",
+        "description": "Outil d'injection SQL détecté"
+    }
+]
